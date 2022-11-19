@@ -49,11 +49,12 @@ p{
     text-align: justify;
     line-height: 1.7;
 }
+
 h2{
+    padding-top: 50px;
     font-size: 47px;
     text-transform: uppercase;
     margin-bottom: 10px;
-    width: 30%;
     text-align: center;
 
 }
@@ -84,7 +85,12 @@ h3{
     color: rgb(218, 212, 212);
     box-shadow: 4px 4px 15px rgb(37, 36, 36);
 }
-
+.projects-title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
 .img-project{
     width: 100%;
     margin: 50px 0px;
@@ -97,4 +103,41 @@ h3{
 }
 .intro >div{
     width: 50%;
+}
+/*------------members---------------*/
+.img-member>img{
+
+    width: 300px;
+    height: 320px;
+ 
+}
+.member-container h2{
+    font-size: 20px;
+   text-align: left;
+   padding-top: 10px;
+}
+.member-container p{
+    font-size: 15px;
+}
+
+.member-container h3{
+    font-size: 18px;
+}
+.member-container{
+    display: flex;
+    gap: 30px;
+}
+/*------------Publications-------------------*/
+.publications h2{
+    text-transform: capitalize;
+    font-size: 20px;
+    text-align: left;
+}
+.publications h3{
+    font-size: 18px;
+    margin: 10px 0px;
+}
+.publications p{
+    margin: 0px;
+    font-size: 15px;
 }
