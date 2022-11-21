@@ -20,15 +20,15 @@ header{
 nav {
     min-height: 70px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
 ul{
     list-style-type: none;
 }
 .nav-menu{
     display: flex;
-	margin-right: 20px;
+	margin-left: 30px;
     align-items: center;
     gap: 60px;
 }
@@ -70,7 +70,8 @@ ul{
 }
 .hero-container-2>img{
     width: 100%;
-   
+    margin-top: 80px;
+
 }
 .hero-container>img{
     width: 100%;
@@ -243,6 +244,16 @@ h3{
 @media screen and (max-width:  900px){
     .member-container{
         flex-direction: column;
+
+    }
+    .img-member {
+        display: flex;
+        justify-content: center;
+    }
+    .img-member >img{
+        width: 230px;
+        height: 250px;
+        margin-bottom: 20px;
     }
     .container-section {
         width: 90%;  
