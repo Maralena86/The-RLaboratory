@@ -160,6 +160,9 @@ h3{
     width: 90%;
    object-fit: scale-down;
 }
+#projects{
+    padding-top: 60px;
+}
 /*------------members---------------*/
 .img-member>img{
 
