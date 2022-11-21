@@ -142,6 +142,24 @@ h3{
 .intro >div{
     width: 50%;
 }
+.intro p{
+    font-size: 15px;
+}
+.intro h1{
+    font-size: 23px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.twitter-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.twitter{
+    width: 90%;
+   object-fit: scale-down;
+}
 /*------------members---------------*/
 .img-member>img{
 
@@ -213,7 +231,9 @@ h3{
 		padding: 0px;
         margin: 0;
     }
-
+    .container-section {
+        width: 90%;  
+    }
     .nav-item{
     
         
@@ -246,6 +266,9 @@ h3{
         flex-direction: column;
 
     }
+    .twitter{
+        height: 400px;
+    }
     .img-member {
         display: flex;
         justify-content: center;
@@ -255,9 +278,7 @@ h3{
         height: 250px;
         margin-bottom: 20px;
     }
-    .container-section {
-        width: 90%;  
-    }
+   
     .intro{
         flex-direction: column;
     }
